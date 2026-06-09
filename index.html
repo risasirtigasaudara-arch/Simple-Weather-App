@@ -2,13 +2,15 @@
 <html>
 <head>
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="card">
         <input type="text" id="cityInput" placeholder="Masukkan kota...">
         <button onclick="getWeather()">Cek Cuaca</button>
         <h2 id="cityName">--</h2>
+        <div id="weatherIcon" style="font-size: 50px; margin: 15px 0; "></div>"
         <p id="temp">--°C</p>
     </div>
     <script src="script.js"></script>
